@@ -1,0 +1,8 @@
+/**
+ * 
+ */
+/**
+ * @author corey
+ *
+ */
+package mealTipCalc;
