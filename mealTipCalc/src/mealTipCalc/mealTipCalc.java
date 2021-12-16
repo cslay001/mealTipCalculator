@@ -18,53 +18,63 @@ public class mealTipCalc {
 	public static double calculateTipRate(double serviceLevel) {
 	
 		if (serviceLevel == 1.0) {
-			double tipRate = 0.075;
-			return tipRate;
+			double result = 0.075;
+			return result;
 		}
 		else {
 			if (serviceLevel == 2.0) {
-			double tipRate = 0.1;
-			return tipRate;
+			double result = 0.1;
+			return result;
+			}
 		}
 		else {
 			if (serviceLevel == 3.0) {
-			double tipRate = 0.125;
-			return tipRate;
+			double result = 0.125;
+			return result;
+			}
 		}			
 		else {
 			if (serviceLevel == 4.0) {
-			double tipRate = 0.15;
-			return tipRate;
+			double result = 0.15;
+			return result;
+			}
 		}
 		else {
 			if (serviceLevel == 5.0) {
-			double tipRate = 0.175;
-			return tipRate;
+			double result = 0.175;
+			return result;
+			}
 		}
 		else {
 			if (serviceLevel == 6.0) {
-			double tipRate = 0.20;
-			return tipRate;
+			double result = 0.20;
+			return result;
+			}
 		}
 		else {
 			if (serviceLevel == 7.0) {
-			double tipRate = 0.225;
-			return tipRate;
+			double result = 0.225;
+			return result;
+			}
 		}
 		else {
 			if (serviceLevel == 8.0) {
-			double tipRate = 0.25;
-			return tipRate;
+			double result = 0.25;
+			return result;
+			}
 		}
 		else {
 			if (serviceLevel == 9.0) {
-			double tipRate = 0.275;
+			double result = 0.275;
+			return result;
+			}
 		}
 		else {
 			if (serviceLevel == 10.0) {
-			double tipRate = 0.30;
-		}
-	return tripRate;
+			double result= 0.30;
+			return result;
+			}
+		
 	}
 	
 	public static double calculateTip(double listedMealPrice, double tipRate) {
